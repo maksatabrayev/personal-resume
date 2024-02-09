@@ -1,0 +1,81 @@
+.portfolio-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto 100%;
+}
+
+.photo-container{
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+
+.head-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: darkgray;
+  grid-column: 2; 
+  grid-row: 1;  
+}
+
+.left-container{
+    background-color: rgb(191, 198, 208);
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.right-container{
+    padding: 2%;
+    grid-area: 2/2/2/2;
+}
+
+#photo{
+    border-radius: 50%;
+    width: 40%;
+    height: 80%;
+}
+
+.skills-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: auto;
+}
+
+
+h1 {
+    font-size: 3vw; 
+  }
+  
+h2 {
+    font-size: 2vw; 
+}
+
+h3{
+    font-size: 1.8vw;
+}
+p{
+    font-size: 1.5vw;
+}
+
+li{
+    font-size: 1.5vw;
+    margin: 1vw;
+}
+
+hr{
+    border: 0;
+    height: 0.3vw;
+    margin: 0;
+    background-color: black;
+
+}
+
+.section-title{
+    margin-bottom: 0;
+}
